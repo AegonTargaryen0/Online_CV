@@ -1,0 +1,74 @@
+/*Fonts are added here*/
+
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('fonts/Aaargh-webfont.eot');
+    src: url('fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aaargh-webfont.woff2') format('woff2'),
+         url('fonts/Aaargh-webfont.woff') format('woff'),
+         url('fonts/Aaargh-webfont.ttf') format('truetype'),
+         url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Modification to all*/
+
+*{
+    font-family: 'aaarghnormal', arial, Helvetica, sans-serif;
+    font-size: 1.1EM;
+    background-image: url('../images/background.png')
+}
+
+/*Haut de la page*/
+
+.box{
+    float: left;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 10px 5px;
+}
+
+.picture{
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+.text{
+    font-size: 0.8EM;
+}
+
+header{
+    min-height: 300px;
+}
+
+/* Body*/
+
+#experience{
+    text-align: center;
+    font-size: 1.1EM;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid black;
+    color: #21066b;
+}
+
+#experience{
+     text-align: center;
+    font-size: 1.1EM;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid black;
+    color: #21066b;
+}
+
+#formation{
+    text-align: center;
+    font-size: 1.1EM;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid black;
+    color: #21066b;
+}
+
+
