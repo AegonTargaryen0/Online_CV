@@ -14,61 +14,45 @@
 
 /*Modification to all*/
 
-*{
+* {
     font-family: 'aaarghnormal', arial, Helvetica, sans-serif;
-    font-size: 1.1EM;
-    background-image: url('../images/background.png')
+    font-size: 1EM;
 }
+
+header, section {
+    width: 80%;
+}
+
 
 /*Haut de la page*/
+header {
+    display: flex;
+    min-height: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.box{
-    float: left;
-    border: 2px solid black;
+
+.container{
+    display:flex;
     padding: 20px 20px 20px 20px;
-    box-shadow: 5px 10px 5px;
 }
 
-.picture{
-    float: right;
-}
-
-h1 {
-    text-align: center;
+header h1 {
     text-decoration: underline;
 }
-.text{
-    font-size: 0.8EM;
-}
 
-header{
-    min-height: 300px;
-}
 
 /* Body*/
 
-#experience{
-    text-align: center;
-    font-size: 1.1EM;
-    padding: 5px 0px 5px 0px;
-    border: 2px solid black;
-    color: #21066b;
+
+.Liste{
+    display: flex;
 }
 
-#experience{
-     text-align: center;
-    font-size: 1.1EM;
-    padding: 5px 0px 5px 0px;
-    border: 2px solid black;
-    color: #21066b;
+.box{
+    padding: 40px 40px 40px 40px;
 }
-
-#formation{
-    text-align: center;
-    font-size: 1.1EM;
-    padding: 5px 0px 5px 0px;
-    border: 2px solid black;
-    color: #21066b;
-}
-
 
