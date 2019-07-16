@@ -1,58 +1,52 @@
-/*Fonts are added here*/
 
-@font-face {
-    font-family: 'aaarghnormal';
-    src: url('fonts/Aaargh-webfont.eot');
-    src: url('fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Aaargh-webfont.woff2') format('woff2'),
-         url('fonts/Aaargh-webfont.woff') format('woff'),
-         url('fonts/Aaargh-webfont.ttf') format('truetype'),
-         url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /*Modification to all*/
-
 * {
-    font-family: 'aaarghnormal', arial, Helvetica, sans-serif;
-    font-size: 1EM;
+    font-family: 'aaarghnormal', 'Times New Roman', Times, serif;
+}
+/*Modification to header*/
+
+*{
+    font-family: 'Times New Roman', Arial,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header, section {
-    width: 80%;
-}
-
-
-/*Haut de la page*/
-header {
+header{
     display: flex;
-    min-height: 100px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    min-height: 150px;
 }
 
-
-.container{
-    display:flex;
-    padding: 20px 20px 20px 20px;
+header .box{
+    margin: auto;
+    vertical-align: middle;
 }
 
-header h1 {
+header h1{
+    font-size: 4.0EM;
+    font-weight: bold;
     text-decoration: underline;
 }
 
 
-/* Body*/
+/*Middle Section*/
 
+
+aside {
+    height: 100%; 
+    position: fixed;
+    width: 10%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
 
 .Liste{
     display: flex;
+    margin: 100px 0 0 200px;
 }
 
-.box{
-    padding: 40px 40px 40px 40px;
-}
 
